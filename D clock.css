@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.clock,.date{
+    border: 5px solid whitesmoke;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 10px;
+}
+.date{
+    border: none;
+}
+.amPm{
+    font-size: 18px;
+}
+
